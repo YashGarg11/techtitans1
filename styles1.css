@@ -1,0 +1,495 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    background-image: url("https://i.gifer.com/J4o.gif");
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Background color for the body */
+}
+.home-slider .caption {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgba(20,20,20,0.2);
+    height: 100%;
+    color: #ffffff;
+    cursor: e-resize;
+    size: 100px;
+  }
+
+  .home-slider .item {
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 650px;
+  }
+  
+
+  .home-slider .item-first {
+    background-image: url("https://fs.hubspotusercontent00.net/hubfs/41809/Add%20a%20heading-1.png");
+	background-position: center;
+  }
+
+  .home-slider .item-second {
+    background-image: url("https://smartblogger.com/wp-content/uploads/2020/09/online-jobs-fb.png");
+  }
+
+  .home-slider .item-third {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAjIuye-VpT_unr3tPxyTEtCmprowOtzwPggoPbxV2v0RPzIT5Actjq_a-tzFmYUwfc3g&usqp=CAU");
+  }
+
+/* Reset some default styles */
+body, h1, h2, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header1 {
+    background-color: #3498db;
+    color: #ed0851;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Reset some default styles */
+body, h1, h2, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style for the library section */
+.library {
+    background-image: url("https://img.freepik.com/free-photo/abundant-collection-antique-books-wooden-shelves-generated-by-ai_188544-29660.jpg?size=626&ext=jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Style for individual courses */
+.course {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style for course titles */
+.course h2 {
+    margin-top: 10px;
+    font-size: 24px; /* Adjust the font size as needed */
+    background-color: #000000;
+}
+
+/* Style for the course subjects list */
+.course ul {
+    background-color: #0bc4ee;
+    list-style: none;
+}
+
+/* Style for individual subject links */
+.course li {
+    margin: 10px 0;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Style for subject icons */
+.course li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+
+
+.container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Add space to the sides of the container */
+}
+
+/* Header Styles */
+.header {
+    background-color: #fbfbfef9; /* Background color for the header */
+    color: #3e10f4; /* Text color for the header */
+    padding: 10px 0;
+    height: 180px; /* Adjust padding as needed */
+}
+
+.logo {
+    width: 25%;
+   padding-left: 1222px;
+}
+
+.nav-menu {
+    width: 75%;
+    text-align: right;
+    padding-right: 20px; /* Adjust as needed */
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-list li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #0ad8e7;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect for menu items */
+.menu-list a:hover {
+    color: #fb0d48; /* Change the hover color as needed */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 0;
+    }
+
+    .logo, .nav-menu {
+        width: 100%;
+        padding: 10px 0;
+        text-align: right;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the body */
+    color: #f10e0e; /* Default text color */
+}
+
+/* Header Styles */
+.header {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1160/1*8wCivXvVBBWy68X4Jb7dGQ.gif");
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+.logo {
+    width: 25%;
+    padding-left: 1220px; /* Adjust as needed */
+}
+
+.nav-menu {
+    width: 75%;
+    text-align: right;
+    padding-right: 50px;
+    /* Adjust as needed */
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    gap: 20px;
+}
+
+.menu-list li {
+    align-items: right;
+    margin: 0px;
+    padding: 50px;
+}
+
+.menu-list a {
+    align-items: right;
+    text-decoration:solid;
+    color: #d11313;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    size: 50px 30px;
+}
+
+/* Hover effect for menu items */
+.menu-list a:hover {
+    color: #1215ec; /* Change the hover color as needed */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('your-hero-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: hsl(240, 100%, 97%);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #370df1;
+    color: #f31111;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+}
+
+.cta-button:hover {
+    background-color: #333; /* Change the hover color as needed */
+}
+
+/* About Section */
+.about {
+    background-color: #07a9ef;
+    color: #000000;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Courses Section */
+.courses {
+    background-color: #ed0808;
+    color: #000000;
+    padding: 60px 0;
+    text-align: center;
+}
+/* Reset some default styles */
+body, h1, h2, ul, li, a, p, address {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the content section */
+.content {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the available support programs list */
+.content ul {
+    list-style: none;
+}
+
+/* Style for program links */
+.content li {
+    margin: 10px 0;
+}
+
+/* Style for contact information */
+.contact {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for email and phone links */
+.contact a {
+    text-decoration: none;
+    color: #3498db;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.contact a:hover {
+    text-decoration: underline;
+    color: #ff5733; /* Change to your preferred hover color */
+}
+
+.courses h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Events Section */
+.events {
+    background-color: #240ee8;
+    color: #083bf2;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.events h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.events a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.events a:hover {
+    color: #fff; /* Change the hover color as needed */
+}
+/* Reset some default styles */
+body, h1, h2, ul, li, a, p, address {
+    margin: 5;
+    padding: 5;
+}
+
+/* Basic styling for the block diagram container */
+.block-diagram {
+    background-image: url("https://www.wemakescholars.com/uploads/blog/educationloanthroughprivatelendersanoverview.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2200px;
+}
+
+/* Style for individual blocks */
+.block {
+    text-align: center;
+    width: 30%;
+    padding: 100px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for blocks */
+.block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for headings */
+.block h1, .block h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Style for links */
+.block a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+/* Hover effect for links */
+.block a:hover {
+    color: #ff5733; /* Change to your preferred hover color */
+}
+
+/* Style for email and phone links */
+.block .email, .block .phone {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+/* Hover effect for footer links */
+ul li a:hover {
+    color: #f21039; /* Change the hover color as needed */
+}
